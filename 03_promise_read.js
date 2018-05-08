@@ -1,5 +1,5 @@
 //
-// 03. an example of writine a Promise to perform fs.read(...)
+// 03. an example Promise that performs fs.read(...)
 //
 
 const fs = require('fs');

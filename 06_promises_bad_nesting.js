@@ -1,5 +1,6 @@
 //
-// 05. this anti-pattern example nests Promises and loses the benefits of chaining
+// 06. this anti-pattern example nests Promises and loses the benefits of chaining
+// If you encounter this in code, then #timeToRefactor
 //
 
 const { statPromise, readPromise, writePromise } = require('./lib/fs-promise');

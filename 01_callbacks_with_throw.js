@@ -29,7 +29,7 @@ function main(filename, outfilename) {
 main('hello.txt', 'goodbye.txt');
 
 // *NOTE: fs.stat should not be used to determine if a file
-// exists or not, because it is async and it may no longer
-// exist between an fs.stat call and an fs.read call. It is
-// better to just deal with errors on fs.read instead, however
-// I am using it to make my nesting example deeper :D
+// exists or not, because it is asynchronous and the file may
+// no longer exist between an fs.stat call and an fs.read call.
+// It is better to just deal with errors on fs.read instead,
+// however I am using it to make my nesting example deeper :D
